@@ -1,0 +1,8 @@
+.education-heading {
+  font-size: 1.7rem;
+  color: var(--light-blue);
+  padding: 0.1em 0;
+  border-bottom: 3px solid var(--light-blue);
+  display: inline-block;
+  margin-bottom: 1em;
+}

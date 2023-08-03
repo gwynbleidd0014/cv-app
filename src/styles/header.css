@@ -1,6 +1,5 @@
 .header {
   background: black;
-  height: 200px;
   width: 100%;
 }
 
@@ -12,11 +11,12 @@
   justify-content: space-between;
   align-items: flex-start;
   padding: 2em;
+  height: 200px;
 }
 
 .header-info-bar {
   background-color: var(--dark-gray);
-  padding: 0.5em 1em;
+  padding: 0.5em;
   justify-content: center;
   align-items: center;
   gap: 2em;

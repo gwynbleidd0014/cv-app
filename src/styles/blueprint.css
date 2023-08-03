@@ -1,0 +1,29 @@
+.heading {
+  font-weight: var(--bold-w);
+  font-size: 1.4rem;
+  margin-bottom: 0.3em;
+}
+
+.description {
+  font-size: 1.1rem;
+  margin-bottom: 0.3em;
+}
+
+.date-input {
+  color: var(--light-blue);
+}
+
+.from-to {
+  display: flex;
+  gap: 2em;
+  width: 45%;
+}
+
+.blueprint > input {
+  display: block;
+  width: 100%;
+}
+
+.blueprint:hover {
+  border: 1px solid magenta;
+}

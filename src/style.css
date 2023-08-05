@@ -32,9 +32,19 @@ body {
   padding-top: 2em;
 }
 
-input {
+input,
+button {
   outline: none;
   border: none;
   box-shadow: none;
   font-size: inherit;
+}
+
+button {
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
 }

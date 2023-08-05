@@ -6,3 +6,19 @@
   display: inline-block;
   margin-bottom: 1em;
 }
+
+.add-education {
+  color: var(--white);
+  background-color: var(--light-blue);
+  font-weight: var(--bold-w);
+  margin-top: 1em;
+  transform: none;
+  transition: transform 300ms ease-in;
+  display: block;
+}
+
+.add-education:hover,
+.add-education:focus {
+  transform: translateY(-3px);
+  cursor: pointer;
+}

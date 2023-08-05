@@ -1,4 +1,6 @@
 .body {
   background-color: var(--white);
   padding: 2em;
+  padding-bottom: 4em;
+  position: relative;
 }

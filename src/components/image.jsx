@@ -1,8 +1,9 @@
 import { useState } from "react";
 import "../styles/image.css";
+import defaultIMG from "../assets/upload.webp";
 
 export default function Image() {
-  const [url, setUrl] = useState("#");
+  const [url, setUrl] = useState(defaultIMG);
   function handleImgClick(e) {
     const input = e.target.previousElementSibling;
     input.click();

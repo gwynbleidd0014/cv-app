@@ -1,0 +1,9 @@
+.app {
+  width: 80vw;
+  height: 80vh;
+
+  display: grid;
+  column-gap: 2em;
+  grid-template-columns: 1fr 2fr;
+  padding: 1em;
+}

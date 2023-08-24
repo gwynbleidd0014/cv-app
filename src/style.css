@@ -6,6 +6,8 @@
   --black: #000;
   --light-blue: #4f90cd;
   --dark-gray: #333333;
+  --red: rgb(197, 26, 26);
+  --gray: #e9e4e4;
 
   --normal-w: 400;
   --bold-w: 700;
@@ -26,10 +28,12 @@ html {
 }
 
 body {
-  background-color: var(--dark-blue);
   width: 100vw;
   min-height: 100vh;
   padding-top: 2em;
+  display: grid;
+  place-items: center;
+  background: var(--gray);
 }
 
 input,
